@@ -40,3 +40,9 @@ For the AMD Developer Hackathon, the showcased flow is the quote detail copilot:
 - receives summary + risks + prioritized actions + customer messaging support.
 
 Optional model enrichment can be routed through an OpenAI-compatible endpoint (for example vLLM on AMD cloud GPUs), while the deterministic workflow remains the reliability baseline.
+
+## Related docs
+
+- [WALKTHROUGH.md](WALKTHROUGH.md) — operator flow + conceptual diagram
+- [API_OVERVIEW.md](API_OVERVIEW.md) — non-secret request/response shapes
+- [JUDGING_ALIGNMENT.md](JUDGING_ALIGNMENT.md) — how this maps to Lablab judging

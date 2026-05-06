@@ -1,74 +1,98 @@
-# OrdoFlow — AMD Developer Hackathon Demo
+# OrdoFlow — AMD Developer Hackathon (Lablab) — Public Demo Pack
 
-OrdoFlow is an AI-powered quote-to-cash orchestration platform that helps businesses move from quote to invoice to payment without manual retyping across CRM, ERP, accounting, and payment systems.
+**Track:** [AMD Developer Hackathon — Track 1: AI Agents & Agentic Workflows](https://lablab.ai/ai-hackathons/amd-developer)
 
-This repository is a public hackathon demonstration repository. The production repository remains private for security, IP protection, and infrastructure safety.
+OrdoFlow is an AI-assisted **quote-to-cash** operations platform: quotes, follow-ups, invoicing, payments, and accounting handoffs across disconnected business systems.
 
-## Live Demo
+This repository is intentionally **not** the production codebase. **The full application source exists in a separate private repository** (intentionally not linked here: security, tenant isolation, and commercial IP). **This** public repo exists so judges can review **submission links, architecture, samples, and judging alignment** without exposing secrets or proprietary implementation detail.
 
-Live app: [https://www.ordoflows.com/](https://www.ordoflows.com/)  
-Video demo: https://github.com/user-attachments/assets/b2721c7b-8191-4494-8524-eea602a29c10
+---
 
- 
-Submission deck: [OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf)
+## Judge quickstart (60 seconds)
 
+1. **Live app:** [https://www.ordoflows.com/](https://www.ordoflows.com/)
+2. **Hackathon feature path:** open a draft quote (example deep link for demos: `/quotes/30` — requires login if your tenant is private).
+3. **Video demo:** use the **Video demo** link in the table below (same URL as in Lablab).
+4. **Slides:** [OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf) — optional in-repo copy: [docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf](docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf) *(if committed)*
+
+**Suggested demo login note for judges (optional):** if the app requires authentication, provide read-only demo credentials **only** in the Lablab submission notes field—not in this README unless you intend them to be fully public forever.
+
+---
+
+## Links (keep these fresh)
+
+| Asset | URL |
+|--------|-----|
+| **Live product** | https://www.ordoflows.com/ |
+| **Video demo** | https://github.com/user-attachments/assets/b2721c7b-8191-4494-8524-eea602a29c10 |
+| **Slide deck (PDF)** | [Hosted submission deck](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf) · [docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf](docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf) *(in-repo, if present)* |
+| **Event** | [AMD Developer Hackathon on Lablab](https://lablab.ai/ai-hackathons/amd-developer) |
+
+---
 
 ## Problem
 
-Businesses often manage sales, operations, accounting, and payments across disconnected systems. This creates duplicate data entry, delayed invoices, missed follow-ups, payment visibility gaps, and avoidable admin work.
+Sales and ops teams stall on quote-to-cash because **next actions** and **customer wording** are unclear when work spans CRM, ERP, accounting, and payments.
 
-## Solution
+## Solution (hackathon slice)
 
-OrdoFlow coordinates quote-to-cash workflows by helping users move from quote creation to invoicing, payment tracking, accounting synchronization, and customer follow-up.
+On the **quote detail** screen, operators run **Get AI next-step plan** to receive:
 
-The AI copilot supports workflow planning, next-step recommendations, risk summaries, and customer follow-up drafting.
+- an operational **summary**
+- **risk flags**
+- **prioritized next actions**
+- support for **customer-ready** follow-up copy
 
-## AMD Hackathon Fit
+The workflow is **agentic** (guided operator workflow embedded in real business UI), not a standalone chat-only toy.
 
-OrdoFlow fits Track 1: AI Agents and Agentic Workflows.
+---
 
-The AI workflow copilot is designed to help users reason through quote-to-cash operations and recommend business actions across sales, accounting, and payment workflows.
+## AMD / Lablab fit
 
-## What this repo includes
+- **Track 1 — Agentic workflows:** copilot sits inside quote-to-cash and proposes actionable next steps.
+- **AMD cloud story (optional enrichment):** architecture supports **OpenAI-compatible** inference (e.g. **vLLM + ROCm** on **AMD Instinct** in cloud) behind feature flags; deterministic behavior remains when enrichment is off or unavailable. See [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md).
 
-- Project overview and demo links
-- Public architecture summary
-- Sample screenshots placeholders
-- Safe sample payloads and prompts
-- Environment variable examples
-- Security boundary statement
+---
 
-## What is excluded
+## What judges get from this repo (Lablab alignment)
 
-- Production source code
-- Secrets and credentials
-- Private infrastructure configuration
-- Customer or tenant data
-- Sensitive commercial logic
-- Database dumps
-- Original private repository history
+Lablab’s published submission expectations include **title, descriptions, tags, cover, video, slides PDF, public GitHub, application URL** — see [Lablab Submission Guidelines](https://lablab.ai/delivering-your-hackathon-solution).
 
-## Repository Structure
+This repo satisfies the **public GitHub** artifact as a **documentation + evidence pack**:
+
+| Lablab expectation | Where it lives here |
+|--------------------|---------------------|
+| Understand the product quickly | This README + [docs/JUDGING_ALIGNMENT.md](docs/JUDGING_ALIGNMENT.md) |
+| See architecture | [docs/architecture.md](docs/architecture.md) + [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md) |
+| See technology application | [docs/API_OVERVIEW.md](docs/API_OVERVIEW.md) + `examples/` |
+| Verify seriousness without leaking IP | Sample payloads + SECURITY statement |
+
+**Why production code is not here:** the implementation lives in the **private** codebase repository described at the top of this README; this package omits it for security, customer data isolation, and commercial IP. The **running application** and **video** are the primary proof of implementation.
+
+---
+
+## Repository layout
 
 ```text
 ordoflow-amd-hackathon-demo/
-├── README.md
+├── README.md                      ← you are here
 ├── docs/
 │   ├── OrdoFlow_Lablab_AMD_Submission_Deck.pdf
-│   └── architecture.md
-├── screenshots/
-│   ├── dashboard.png
-│   ├── quote-workflow.png
-│   └── ai-assistant.png
-├── examples/
-│   ├── sample_quote_to_cash_payload.json
-│   ├── sample_ai_workflow_prompt.md
-│   └── sample_api_response.json
-├── .env.example
+│   ├── architecture.md
+│   ├── WALKTHROUGH.md             ← build story & flow (safe)
+│   ├── JUDGING_ALIGNMENT.md       ← maps Lablab criteria → deliverables
+│   └── API_OVERVIEW.md            ← non-secret API shapes
+├── examples/                      ← fictitious sample JSON / prompts
+├── screenshots/                   ← add PNGs when ready (no PII)
+├── .env.example                   ← placeholders only
 ├── LICENSE
 └── SECURITY.md
 ```
 
-## Notes for Judges
+---
 
-The linked GitHub repository is a public hackathon demo repository. The production OrdoFlow repository remains private for security and IP protection. This public repo includes overview content, architecture notes, screenshots, sample payloads, and submission materials only.
+## For organizers
+
+**Public demo repo:** `https://github.com/CG-Guy/ordoflow-amd-hackathon-demo`  
+**Production source:** maintained in a **private** repository (full codebase; not published).  
+**Interactive prototype:** hosted SaaS URL above.

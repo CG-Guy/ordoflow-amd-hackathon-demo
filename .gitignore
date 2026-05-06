@@ -7,3 +7,10 @@
 # OS/editor artifacts
 .DS_Store
 Thumbs.db
+
+# Avoid accidentally committing large binaries or secrets
+*.mp4
+*.mov
+.env
+.env.*
+!.env.example

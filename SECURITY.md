@@ -2,6 +2,8 @@
 
 This repository is intentionally limited to safe public demo material for hackathon judging.
 
+The canonical production codebase is kept in a **separate private repository** and is not mirrored here.
+
 ## In scope
 
 - Public overview documentation
