@@ -11,11 +11,32 @@ This repository is intentionally **not** the production codebase. **The full app
 ## Judge quickstart (60 seconds)
 
 1. **Live app:** [https://www.ordoflows.com/](https://www.ordoflows.com/)
-2. **Hackathon feature path:** open a draft quote (example deep link for demos: `/quotes/30` — requires login if your tenant is private).
-3. **Video demo:** use the **Video demo** link in the table below (same URL as in Lablab).
-4. **Slides:** [OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf) — optional in-repo copy: [docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf](docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf) *(if committed)*
+2. **Sign in (judge demo tenant):**
 
-**Suggested demo login note for judges (optional):** if the app requires authentication, provide read-only demo credentials **only** in the Lablab submission notes field—not in this README unless you intend them to be fully public forever.
+   | | |
+   |---|---|
+   | **Email** | `ordoflow.lablab.judges@example.com` |
+   | **Password** | `JudgesPassword123!` |
+
+   *Disposable read-only demo account for hackathon review; intended to be public here and on Lablab—rotate or disable after the event.*
+
+3. **Hackathon feature path:** open a draft quote (example deep link for demos: `/quotes/30` — adjust per tenant after login).
+4. **Video demo:** use the **Video demo** link in the table below (same URL as in Lablab).
+5. **Slides:** [OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf) — optional in-repo copy: [docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf](docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf) *(if committed)*
+
+---
+
+## Lablab Step 3 — Additional Information (copy/paste)
+
+Use this block in Lablab’s **Additional Information** field. Keep **Demo Application URL** as `https://www.ordoflows.com/`.
+
+```text
+Live demo: The URL above is our production OrdoFlow application (not a mock).
+GitHub: The linked repo is our public hackathon pack (architecture, samples, deck/video links, judging alignment). Full production source lives in a separate private repository for security, tenant isolation, and IP—as documented in that README.
+Hackathon flow: From the app, open a draft quote and use Get AI next-step plan on the quote detail screen (see submission video).
+
+Judge demo login (read-only demo tenant): Email ordoflow.lablab.judges@example.com — Password JudgesPassword123!
+```
 
 ---
 

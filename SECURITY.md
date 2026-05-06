@@ -4,6 +4,8 @@ This repository is intentionally limited to safe public demo material for hackat
 
 The canonical production codebase is kept in a **separate private repository** and is not mirrored here.
 
+This repo may include **public judge/demo credentials** for the hosted product (hackathon review only). Treat them as non-secret and rotate them after the event.
+
 ## In scope
 
 - Public overview documentation
