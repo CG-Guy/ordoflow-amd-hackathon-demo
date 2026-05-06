@@ -10,7 +10,8 @@ Live app: [https://www.ordoflows.com/](https://www.ordoflows.com/)
 Video demo: https://github.com/user-attachments/assets/b2721c7b-8191-4494-8524-eea602a29c10
 
  
-Submission deck: `docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf` (add your final deck file)
+Submission deck: [OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf)
+
 
 ## Problem
 
