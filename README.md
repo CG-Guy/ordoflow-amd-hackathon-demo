@@ -7,7 +7,9 @@ This repository is a public hackathon demonstration repository. The production r
 ## Live Demo
 
 Live app: [https://www.ordoflows.com/](https://www.ordoflows.com/)  
-Video demo: Add your uploaded video URL here  
+Video demo: https://github.com/user-attachments/assets/b2721c7b-8191-4494-8524-eea602a29c10
+
+ 
 Submission deck: `docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf` (add your final deck file)
 
 ## Problem
