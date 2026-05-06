@@ -1,0 +1,33 @@
+{
+  "quote_id": "Q-2026-0030",
+  "organization_id": "demo-org-1",
+  "customer": {
+    "name": "Sample Customer",
+    "country_code": "US",
+    "region": "CO"
+  },
+  "quote": {
+    "status": "draft",
+    "currency": "USD",
+    "total_amount": 24.0,
+    "tax_amount": 1.92,
+    "line_items": [
+      {
+        "description": "Burger",
+        "quantity": 3,
+        "unit_price": 5.0,
+        "line_amount": 15.0
+      },
+      {
+        "description": "Coke",
+        "quantity": 3,
+        "unit_price": 3.0,
+        "line_amount": 9.0
+      }
+    ]
+  },
+  "request_context": {
+    "requested_by": "demo-user",
+    "channel": "web-ui"
+  }
+}

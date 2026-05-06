@@ -1,0 +1,23 @@
+{
+  "summary": "Draft quote for Sample Customer is ready, but follow-up timing and confirmation details should be tightened before sending.",
+  "risk_flags": [
+    "No explicit customer send timeline captured",
+    "Missing payment term confirmation in notes"
+  ],
+  "next_actions": [
+    {
+      "priority": 1,
+      "action": "Confirm send date with customer and capture it in notes"
+    },
+    {
+      "priority": 2,
+      "action": "Verify payment terms and include in outbound quote message"
+    },
+    {
+      "priority": 3,
+      "action": "Send quote and schedule follow-up reminder for 24 hours"
+    }
+  ],
+  "customer_message_draft": "Hi, your quote is ready and attached. Please confirm your preferred payment terms and we can finalize immediately.",
+  "inference_source": "deterministic_with_optional_llm_enrichment"
+}

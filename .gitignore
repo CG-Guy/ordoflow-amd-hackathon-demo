@@ -1,0 +1,9 @@
+# Never commit real secrets
+.env
+*.key
+*.pem
+*.p12
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
