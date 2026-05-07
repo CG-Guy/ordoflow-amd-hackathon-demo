@@ -85,7 +85,7 @@ This repo satisfies the **public GitHub** artifact as a **documentation + eviden
 |--------------------|---------------------|
 | Understand the product quickly | This README + [docs/JUDGING_ALIGNMENT.md](docs/JUDGING_ALIGNMENT.md) |
 | See architecture | [docs/architecture.md](docs/architecture.md) + [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md) |
-| See technology application | [docs/API_OVERVIEW.md](docs/API_OVERVIEW.md) + `examples/` |
+| See technology application | [docs/API_OVERVIEW.md](docs/API_OVERVIEW.md) + [docs/COPILOT_ENRICHMENT.md](docs/COPILOT_ENRICHMENT.md) + `examples/` |
 | Verify seriousness without leaking IP | Sample payloads + SECURITY statement |
 
 **Why production code is not here:** the implementation lives in the **private** codebase repository described at the top of this README; this package omits it for security, customer data isolation, and commercial IP. The **running application** and **video** are the primary proof of implementation.
@@ -102,7 +102,8 @@ ordoflow-amd-hackathon-demo/
 │   ├── architecture.md
 │   ├── WALKTHROUGH.md             ← build story & flow (safe)
 │   ├── JUDGING_ALIGNMENT.md       ← maps Lablab criteria → deliverables
-│   └── API_OVERVIEW.md            ← non-secret API shapes
+│   ├── API_OVERVIEW.md            ← non-secret API shapes
+│   └── COPILOT_ENRICHMENT.md      ← optional LLM sidecar contract (AMD / ROCm)
 ├── examples/                      ← fictitious sample JSON / prompts
 ├── screenshots/                   ← add PNGs when ready (no PII)
 ├── .env.example                   ← placeholders only

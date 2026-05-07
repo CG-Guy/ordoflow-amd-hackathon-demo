@@ -32,3 +32,5 @@ These files are **demo-safe**: dummy customer names and amounts.
 ## AMD / optional LLM path (conceptual)
 
 Optional enrichment calls may route to an OpenAI-compatible **`/v1`**-style HTTP API (for example a **vLLM** server on **AMD Instinct**). Configuration is via environment variables in deployment—not committed publicly.
+
+For **request/response shapes, env var names, and compliance notes**, see [COPILOT_ENRICHMENT.md](COPILOT_ENRICHMENT.md).
