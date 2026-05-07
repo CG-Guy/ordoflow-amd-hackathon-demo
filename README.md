@@ -83,7 +83,7 @@ This repo satisfies the **public GitHub** artifact as a **documentation + eviden
 
 | Lablab expectation | Where it lives here |
 |--------------------|---------------------|
-| Understand the product quickly | This README + [docs/JUDGING_ALIGNMENT.md](docs/JUDGING_ALIGNMENT.md) |
+| Understand the product quickly | This README + [docs/AMD_HACKATHON_SUBMISSION.md](docs/AMD_HACKATHON_SUBMISSION.md) + [docs/JUDGING_ALIGNMENT.md](docs/JUDGING_ALIGNMENT.md) |
 | See architecture | [docs/architecture.md](docs/architecture.md) + [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md) |
 | See technology application | [docs/API_OVERVIEW.md](docs/API_OVERVIEW.md) + [docs/COPILOT_ENRICHMENT.md](docs/COPILOT_ENRICHMENT.md) + `examples/` |
 | Verify seriousness without leaking IP | Sample payloads + SECURITY statement |
@@ -102,6 +102,7 @@ ordoflow-amd-hackathon-demo/
 │   ├── architecture.md
 │   ├── WALKTHROUGH.md             ← build story & flow (safe)
 │   ├── JUDGING_ALIGNMENT.md       ← maps Lablab criteria → deliverables
+│   ├── AMD_HACKATHON_SUBMISSION.md ← Lablab handoff + paste-ready text
 │   ├── API_OVERVIEW.md            ← non-secret API shapes
 │   └── COPILOT_ENRICHMENT.md      ← optional LLM sidecar contract (AMD / ROCm)
 ├── examples/                      ← fictitious sample JSON / prompts
