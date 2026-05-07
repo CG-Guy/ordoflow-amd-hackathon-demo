@@ -22,7 +22,7 @@ This repository is intentionally **not** the production codebase. **The full app
 
 3. **Hackathon feature path:** open a draft quote (example deep link for demos: `/quotes/30` — adjust per tenant after login).
 4. **Video demo:** use the **Video demo** link in the table below (same URL as in Lablab).
-5. **Slides:** [OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf) — optional in-repo copy: [docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf](docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf) *(if committed)*
+5. **Slides:** [OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf)
 
 ---
 
@@ -46,7 +46,7 @@ Judge demo login (read-only demo tenant): Email ordoflow.lablab.judges@example.c
 |--------|-----|
 | **Live product** | https://www.ordoflows.com/ |
 | **Video demo** | https://github.com/user-attachments/assets/b2721c7b-8191-4494-8524-eea602a29c10 |
-| **Slide deck (PDF)** | [Hosted submission deck](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf) · [docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf](docs/OrdoFlow_Lablab_AMD_Submission_Deck.pdf) *(in-repo, if present)* |
+| **Slide deck (PDF)** | [Hosted submission deck](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf) |
 | **Event** | [AMD Developer Hackathon on Lablab](https://lablab.ai/ai-hackathons/amd-developer) |
 
 ---
@@ -98,7 +98,7 @@ This repo satisfies the **public GitHub** artifact as a **documentation + eviden
 ordoflow-amd-hackathon-demo/
 ├── README.md                      ← you are here
 ├── docs/
-│   ├── OrdoFlow_Lablab_AMD_Submission_Deck.pdf
+│   ├── (optional) local deck PDF if you choose to commit one
 │   ├── architecture.md
 │   ├── WALKTHROUGH.md             ← build story & flow (safe)
 │   ├── JUDGING_ALIGNMENT.md       ← maps Lablab criteria → deliverables

@@ -2,7 +2,7 @@
 
 | Document | Purpose |
 |----------|---------|
-| [OrdoFlow_Lablab_AMD_Submission_Deck.pdf](OrdoFlow_Lablab_AMD_Submission_Deck.pdf) | Slide deck for Lablab (export PDF from Keynote/PowerPoint/Google Slides) |
+| [Hosted submission deck (PDF)](https://github.com/user-attachments/files/27452659/OrdoFlow_AMD_Hackathon_Clean_Submission_Deck.pdf) | Slide deck for Lablab |
 | [architecture.md](architecture.md) | High-level architecture |
 | [WALKTHROUGH.md](WALKTHROUGH.md) | Judge-friendly technical walkthrough (safe) |
 | [JUDGING_ALIGNMENT.md](JUDGING_ALIGNMENT.md) | Maps Lablab judging dimensions → your artifacts |
