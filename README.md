@@ -10,7 +10,7 @@ This repository is intentionally **not** the production codebase. **The full app
 
 ## Judge quickstart (60 seconds)
 
-1. **Live app:** [https://www.ordoflows.com/](https://www.ordoflows.com/)
+1. **Live app:** [https://www.ordoflows.com/](https://www.ordoflows.com/) — production web tier is deployed on **[Render](https://render.com/)**.
 2. **Sign in (judge demo tenant):**
 
    | | |
@@ -18,7 +18,7 @@ This repository is intentionally **not** the production codebase. **The full app
    | **Email** | `ordoflow.lablab.judges@example.com` |
    | **Password** | `JudgesPassword123!` |
 
-   *Disposable read-only demo account for hackathon review; intended to be public here and on Lablab—rotate or disable after the event.*
+   *Disposable read-only demo account for hackathon review; intended to be public here and on Lablab—rotate or disable after the event. If your auth does not provision `@example.com`, replace this table and the Lablab copy/paste block below with the **production-provisioned** judge email you verified in an incognito window.*
 
 3. **Hackathon feature path:** open a draft quote (example deep link for demos: `/quotes/30` — adjust per tenant after login).
 4. **Video demo:** use the **Video demo** link in the table below (same URL as in Lablab).
@@ -116,4 +116,5 @@ ordoflow-amd-hackathon-demo/
 
 **Public demo repo:** `https://github.com/CG-Guy/ordoflow-amd-hackathon-demo`  
 **Production source:** maintained in a **private** repository (full codebase; not published).  
+**Production web hosting:** [Render](https://render.com/) (application URL above).  
 **Interactive prototype:** hosted SaaS URL above.
