@@ -8,6 +8,8 @@ OrdoFlow exposes versioned JSON endpoints behind standard session/JWT patterns (
 
 ## Quote-to-cash copilot (conceptual)
 
+**Product spec:** [FUNCTIONAL_SPEC_AI_QUOTE_TO_CASH_COPILOT.md](FUNCTIONAL_SPEC_AI_QUOTE_TO_CASH_COPILOT.md)
+
 **Purpose:** given quote context, return structured guidance for operators.
 
 **Pattern:**
