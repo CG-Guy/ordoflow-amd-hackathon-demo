@@ -82,6 +82,7 @@ Production web hosting (e.g. Render) for the main app is separate from where GPU
 
 ## Related files in *this* repository
 
+- [COPILOT_SIDECAR_RUNBOOK.md](COPILOT_SIDECAR_RUNBOOK.md) — LangChain/LangGraph sidecar story, mock/Ollama/vLLM modes (source in private repo)
 - [API_OVERVIEW.md](API_OVERVIEW.md) — high-level API shapes
 - [WALKTHROUGH.md](WALKTHROUGH.md) — operator flow and AMD cloud narrative
 - `examples/sample_ai_workflow_prompt.md` — illustrative prompt / JSON examples (fictitious data)
